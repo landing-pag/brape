@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Brape</title>
+  </head>
+  <body style="background: #000">
+    <div class="d-flex flex-column wrapper">
+      <!-- Navbar (Menu Hambúrguer) -->
+      <nav id="navbarHamburger" class="navbar navbar-dark bg-dark p-0">
+        <div class="container-fluid p-0">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="bi bi-list fs-1"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ps-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projetos">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#como">Como Funciona</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#planos">Planos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container d-flex justify-content-center align-items-center">
+        <div class="row justify-content-center">
+          <!-- foto capa brape -->
+          <div id="home" class="col-10 p-0 ">
+            <img
+              src="arquivos/topo.jpg"
+              alt="Descrição da imagem"
+              class=" mt-2 rounded mx-auto d-block img-fluid col-md-10"
+            />
+          </div>
+
+          <!-- txt inicial + botao -->
+          <div class="text-center text-white col-12 col-sm-6 ">
+            <h1 class="text-shadow responsive-text mt-4 mx-3 fs-5">
+              TRANSFORMAR OS SONHOS DOS NOSSOS CLIENTES EM REALIDADE É A NOSSA
+              MISSÃO!
+            </h1>
+            <h1 class="text-shadow responsive-text custom-text my-5">
+              Venha dar vida ao seu sonho...
+            </h1>
+            <div style="margin: 0px 0px 170px 0px">
+              <button class="btn-gold pulsate">
+                <a
+                  href="#planos"
+                  class="text-decoration-none"
+                  style="color: black"
+                >
+                  ENTRE EM CONTATO
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <!-- Seção sobre mim -->
+          <div
+            id="sobre"
+            class="row text-center margin-top"
+            style="margin: 0px 0px 100px 0px"
+          >
+            <h2 class="text-center mb-3 fs-3 fw-bold pconquistas fade-in-top">
+              SOBRE NÓS
+            </h2>
+            <p class="text-center px-3 text-white custom-text fade-in-top">
+              A BRAPE é uma empresa familiar, que tem como sócios os irmãos:
+              Afonso Lima e Aryana Lima. Temos como propósito principal, tornar
+              acessível aos nossos clientes e futuros clientes, os serviços de
+              Arquitetura e Engenharia!
+            </p>
+
+            <div class="container mt-3">
+              <div class="row justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-10 col-md-5 mb-4 fade-in-top">
+                  <div class="card team-card bg-dark">
+                    <div class="row g-0">
+                      <div
+                        class="col-md-4 d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="arquivos/afonso2.png"
+                          class="img-fluid rounded-circle img-sm m-3"
+                          alt="Afonso Lima "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="pb-3 p-md-3 text-center">
+                          <h3 class="card-title fw-bold fs-2">Afonso Lima</h3>
+                          <p class="card-text2 fw-bold mb-0 fs-5">
+                            Arquiteto e Urbanista
+                          </p>
+                          <p class="card-text mb-1" style="font-size: 12px">
+                            CAU PE nºA307099-9
+                          </p>
+                          <p class="card-text fw-bold fs-6">@afonsolima</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-10 col-md-5 fade-in-top">
+                  <div class="card team-card bg-dark">
+                    <div class="row g-0">
+                      <div
+                        class="col-md-4 d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="arquivos/aryane2.png"
+                          class="img-fluid rounded-circle m-3"
+                          alt="Aryana Lima"
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="pb-3 p-md-3 text-center">
+                          <h3 class="card-title fw-bold fs-2">Aryana Lima</h3>
+                          <p class="card-text2 fw-bold mb-0 fs-5">
+                            Engenheira Civil
+                          </p>
+                          <p style="font-size: 12px" class="card-text mb-1">
+                            CREA PE nº181630898-6
+                          </p>
+                          <p class="card-text fw-bold fs-6">@aryanalima</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Seção Demonstrativa de Projetos -->
+          <div
+            id="projetos"
+            class="row p-0 d-flex fade-in-top justify-content-around"
+            style="margin: 100px 0px 0px 0px"
+          >
+
+          <h2 class="text-center my-5 fs-3 fw-bold pconquistas fade-in-top">
+            CONHEÇA NOSSOS PROJETOS
+          </h2>
+
+            <div class="text-center col-8 col-md-2 p-0">
+              <img
+                src="arquivos/comerciais/01.jpg"
+                alt="Descrição da imagem"
+                class="img-fluid "
+                style="border-radius: 50%;"
+              />
+              <a href="/comerciais.html">
+              <button id="verprojetos" class="btn-gold pulsate my-3">
+                COMERCIAIS
+              </button>
+              </a>
+            </div>
+
+            <div class="text-center col-8 col-md-2  p-0">
+              <img
+                src="arquivos/residenciais/01.jpg"
+                alt="Descrição da imagem"
+                class="img-fluid"
+                style="border-radius: 50%;"
+              />
+
+              <a href="/residenciais.html">
+              <button id="verprojetos" class="btn-gold pulsate my-3">
+                RESIDENCIAIS
+              </button>
+              </a>
+            </div>
+
+            <div class="text-center col-8 col-md-2 p-0">
+              <img
+                src="arquivos/interiores/01.jpg"
+                alt="Descrição da imagem"
+                class="img-fluid"
+                style="border-radius: 50%;"
+              />
+
+              <a href="/interiores.html">
+              <button id="verprojetos" class="btn-gold pulsate my-3">
+                INTERIORES
+              </button>
+              </a>
+            </div>
+
+            <div class="text-center col-8 col-md-2 p-0">
+              <img
+                src="arquivos/fachadas/01.jpg"
+                alt="Descrição da imagem"
+                class="img-fluid"
+                style="border-radius: 50%;"
+              />
+
+              <a href="/fachadas.html">
+              <button id="verprojetos" class="btn-gold pulsate my-3">
+                FACHADAS
+              </button>
+              </a>
+            </div>
+
+
+          </div>
+
+          
+
+
+          <!--servicos-->
+          <section id="servicos" class=""  style="margin: 150px 0px 150px 0px">
+            <div
+              class="row d-flex justify-content-center conteiner text-center"
+            >
+              <h2 class="text-center my-3 fs-3 fw-bold pconquistas fade-in-top">
+                SERVIÇOS
+              </h2>
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">Projeto residencial</h2>
+              </div>
+              <!--fim serv-->
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">
+                  Projeto residencial multifamilia
+                </h2>
+              </div>
+              <!--fim serv-->
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">Projeto comercial</h2>
+              </div>
+              <!--fim serv-->
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">Projeto coorporativo</h2>
+              </div>
+              <!--fim serv-->
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">Projeto de reforma</h2>
+              </div>
+              <!--fim serv-->
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">Projeto de interiores</h2>
+              </div>
+              <!--fim serv-->
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">Projeto de fachadas</h2>
+              </div>
+              <!--fim serv-->
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">Projeto estrutural</h2>
+              </div>
+              <!--fim serv-->
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">Projeto urbano</h2>
+              </div>
+              <!--fim serv-->
+              <!-- init serv-->
+              <div
+                class="bg-dark mx-4 py-1 col-10 col-sm-6 col-md-4 my-1 fade-in-top"
+              >
+                <i class="bi bi-check-circle-fill fs-3 text-white"></i>
+                <h2 class="text-white fs-5">Projeto de infraestrutura</h2>
+              </div>
+              <!--fim serv-->
+            </div>
+          </section>
+
+          <!-- como funciona -->
+          <section id="como" class="how-it-works py-5 mb-5">
+            <div class="container">
+              <h2 class="text-center pconquistas my-3 fs-3 fw-bold fade-in-top">
+                COMO FUNCIONA?
+              </h2>
+              <p class="text-center my-3 text-white  fade-in-top custom-text">
+                Prático e funcional
+              </p>
+
+              <div class="row text-white">
+                <div class="col-lg-4 col-md-6 mb-4 fade-in-top">
+                  <div class="text-center bg-dark p-4 rounded">
+                    <div class="icon mb-3">
+                      <i
+                        class="bi bi-pencil-square"
+                        style="font-size: 2rem; color: #e6b100"
+                      ></i>
+                    </div>
+                    <h5 class="mb-3">BRIEFING</h5>
+                    <p>
+                      Faremos aqui o nosso primeiro encontro online, onde vamos
+                      nos conhecer e assim, vou poder entender melhor o que você
+                      precisa e como te auxiliar durante todo o processo.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in-top">
+                  <div class="text-center bg-dark p-4 rounded">
+                    <div class="icon mb-3">
+                      <i
+                        class="bi bi-display"
+                        style="font-size: 2rem; color: #e6b100"
+                      ></i>
+                    </div>
+                    <h5 class="mb-3">APRESENTAÇÃO</h5>
+                    <p>
+                      Material finalizado, entraremos em contato para marcarmos
+                      a nossa reunião presencial, onde apresentaremos todo o
+                      conceito e as soluções pensadas para o seu ambiente.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 fade-in-top">
+                  <div class="text-center bg-dark p-4 rounded">
+                    <div class="icon mb-3">
+                      <i
+                        class="bi bi-box"
+                        style="font-size: 2rem; color: #e6b100"
+                      ></i>
+                    </div>
+                    <h5 class="mb-3">ENTREGA FINAL</h5>
+                    <p>
+                      Com a etapa de apresentação aprovada, você irá receber em
+                      pdf, todos os detalhes, informações e especificações
+                      necessárias para o perfeito entendimento e execução da
+                      proposta.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center mt-2 pulsate">
+                <button
+                  class="btn-gold fade-in-top"
+                  style="background-color: #b8a57d; color: #000"
+                >
+                  <a
+                    href="#planos"
+                    class="text-decoration-none"
+                    style="color: black"
+                  >
+                    É ISSO QUE EU PRECISO!
+                  </a>
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <!--planos-->
+          <section id="planos" class="consultoria-online p-0">
+            <div class="container text-center">
+              <h2 class="text-center my-3 fs-3 fw-bold pconquistas fade-in-top">
+                GARANTA AGORA ATRAVEZ DOS NOSSOS PLANOS
+              </h2>
+              <p class="text-center my-3 px-1 text-white fade-in-top custom-text">
+                Transforme a sua vida e a vida da sua família.
+              </p>
+              <div class="row justify-content-between p-4 p-sm-5 ">
+                <!-- Plano BRONZE -->
+                <div
+                  class="col-12 col-lg-4 col-md-10 mb-4 plan-bronze px-0 col-md-4 fade-in-top bg-dark"
+                >
+                  <div class="card bg-dark text-white rounded">
+                    <div class="">
+                      <img
+                        src="https://cdn.glitch.global/17763beb-7ddc-490a-ba2f-6f3c892f6ae5/17%20LOGO%20BRAPE%20BRONZE%20PNG.png?v=1729357969393"
+                        alt="Descrição da imagem"
+                        class="rounded mx-auto d-block img-fluid col-6"
+                      />
+
+                      <h2 class="text-white text-center mt-0 fs-1 t-b">
+                        BRONZE:
+                      </h2>
+                    </div>
+
+                    <div class="card-body pt-0 mt-0">
+                      <hr class="border-secondary mt-1" />
+
+                      <!-- Conteúdo expansível -->
+
+                      <div class="expandable-text px-1 d-flex justify-content-center" style="font-size: 13px">
+                        <ul class="custom-list text-start">
+                          <li>Levantamento métrico e fotográfico;</li>
+                          <li>Planta de situação;</li>
+                          <li>Planta de locação e coberta;</li>
+                          <li>Quadro de áreas;</li>
+                          <li>Plantas baixas;</li>
+                          <li>Planta de layout;</li>
+                          <li>Planta de pontos elétricos;</li>
+                          <li>Planta de pontos hidráulicos;</li>
+                          <li>2 cortes;</li>
+                          <li>2 perspectivas;</li>
+                          <li>Fachadas;</li>
+                          <li>Projeto de reforma;</li>
+                          <li>Projeto estrutural;</li>
+                          <li>10 renderizações;</li>
+                          <li>3 visitas na obra.</li>
+                        </ul>
+                      </div>
+
+                      <div class="row text-center p-4">
+                        <button
+                          class="btn-ouro-t text-white bg-dark mb-2 mt-0 toggle-button"
+                        >
+                          Mostrar Mais
+                        </button>
+
+                        <button class="btn-bronze mt-3 pulsate">
+                          ESCOLHER PLANO
+                        </button>
+                      </div>
+
+                      <p style="font-size: 14px" class="text-white">
+                        Entre em contato para confirmar condições e tirar
+                        possíveis dúvidas.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Plano PRATA -->
+                <div
+                  class="col-12 col-lg-4 col-md-10 mb-4 plan-silver px-0 col-md-4 fade-in-top bg-dark"
+                >
+                  <div class="card bg-dark text-white rounded">
+                    <div class="">
+                      <img
+                        src="https://cdn.glitch.global/17763beb-7ddc-490a-ba2f-6f3c892f6ae5/18%20LOGO%20BRAPE%20PRATA%20PNG.png?v=1729357971972"
+                        alt="Descrição da imagem"
+                        class="rounded mx-auto d-block img-fluid col-6"
+                      />
+
+                      <h2 class="text-white text-center mt-0 fs-1 t-b">
+                        PRATA:
+                      </h2>
+                    </div>
+
+                    <div class="card-body pt-0 mt-0">
+                      <hr class="border-secondary mt-1" />
+                      
+
+                      <!-- Conteúdo expansível -->
+                      <div class="expandable-text px-1 d-flex justify-content-center" style="font-size: 13px">
+                        <ul class="custom-list text-start">
+                          <li>Levantamento métrico e fotográfico;</li>
+                          <li>Planta de situação;</li>
+                          <li>Planta de locação e coberta;</li>
+                          <li>Quadro de áreas;</li>
+                          <li>Plantas baixas;</li>
+                          <li>Planta de layout;</li>
+                          <li>Planta de pontos elétricos;</li>
+                          <li>Planta de pontos hidráulicos;</li>
+                          <li>2 cortes;</li>
+                          <li>4 perspectivas;</li>
+                          <li>Fachadas;</li>
+                          <li>Projeto de reforma;</li>
+                          <li>Projeto estrutural;</li>
+                          <li>Álbum com 20 renderizações;</li>
+                          <li>6 visitas na obra;</li>
+                          <li>Paginação de piso;</li>
+                          <li>Paginação de parede;</li>
+                          <li>Planta de iluminação;</li>
+                          <li>Planta de gesso;</li>
+                          <li>Tabelas quantitativas.</li>
+                        </ul>
+                      </div>
+
+                      <div class="row text-center p-4">
+                        <button
+                          class="btn-ouro-t text-white bg-dark mb-2 mt-0 toggle-button"
+                        >
+                          Mostrar Mais
+                        </button>
+
+                        <button class="btn-prata mt-3 pulsate">
+                          ESCOLHER PLANO
+                        </button>
+                      </div>
+
+                      <p style="font-size: 14px" class="text-white">
+                        Entre em contato para confirmar condições e tirar
+                        possíveis dúvidas.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Plano OURO -->
+                <div
+                  class="col-12 col-lg-4 col-md-10 mb-4 plan-gold px-0 col-md-4 fade-in-top bg-dark"
+                >
+                  <div class="card bg-dark text-white rounded">
+                    <div class="">
+                      <img
+                        src="https://cdn.glitch.global/17763beb-7ddc-490a-ba2f-6f3c892f6ae5/19%20LOGO%20BRAPE%20OURO%20PNG.png?v=1729357974306"
+                        alt="Descrição da imagem"
+                        class="rounded mx-auto d-block img-fluid col-6"
+                      />
+
+                      <h2 class="text-white text-center mt-0 fs-1 t-b">
+                        OURO:
+                      </h2>
+                    </div>
+                    <div class="card-body pt-0 mt-0">
+                      <hr class="border-secondary mt-1" />
+                      
+
+                      <!-- Conteúdo expansível -->
+                      <div class="expandable-text px-1 d-flex justify-content-center" style="font-size: 13px">
+                         <ul class="custom-list text-start">
+                          <li>Levantamento métrico e fotográfico;</li>
+                          <li>Planta de situação;</li>
+                          <li>Planta de locação e coberta;</li>
+                          <li>Quadro de áreas;</li>
+                          <li>Plantas baixas;</li>
+                          <li>Planta de layout;</li>
+                          <li>Planta de pontos elétricos;</li>
+                          <li>Planta de pontos hidráulicos;</li>
+                          <li>2 cortes;</li>
+                          <li>4 perspectivas;</li>
+                          <li>Fachadas;</li>
+                          <li>Projeto de reforma;</li>
+                          <li>Projeto estrutural;</li>
+                          <li>Álbum com 20 renderizações;</li>
+                          <li>6 visitas na obra;</li>
+                          <li>Paginação de piso;</li>
+                          <li>Paginação de parede;</li>
+                          <li>Planta de iluminação;</li>
+                          <li>Planta de gesso;</li>
+                          <li>Tabelas quantitativas.</li>
+                          <li>Móveis planejados;</li>
+                          <li>Especifucação de móveis utilizados;</li>
+                          <li>Marmoraria</li>
+                          <li>Serralharia;</li>
+                          <li>Detalhamento de portas;</li>
+                          <li>Detalhamento de esquadrias;</li>
+                          <li>Caderno de especificaçãoes.</li>
+                           
+                        </ul>
+                      </div>
+
+                      <div class="row text-center p-4">
+                        <button
+                          class="btn-ouro-t text-white bg-dark mb-2 mt-0 toggle-button"
+                        >
+                          Mostrar Mais
+                        </button>
+
+                        <button class="btn-ouro mt-3 pulsate">
+                          ESCOLHER PLANO
+                        </button>
+                      </div>
+
+                      <p style="font-size: 14px" class="text-white">
+                        Entre em contato para confirmar condições e tirar
+                        possíveis dúvidas.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </main>
+
+      <footer class="text-white py-2">
+        <hr class="border-secondary mb-4" />
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            
+              <!-- Redes Sociais -->
+            <div id="contato" class="col-md-4 text-center text-md-start mt-0 mb-5 ">
+              <p class="mb-1 ms-md-4">Contate-nos:</p>
+              
+              <a href="#" class="text-white mx-2"
+                ><i class="bi bi-whatsapp" style="font-size: 1.5rem"></i
+              ></a>
+              <a href="#" class="text-white mx-2"
+                ><i class="bi bi-instagram" style="font-size: 1.5rem"></i
+              ></a>
+          
+              
+              <a href="#" class="text-white mx-2"
+                ><i class="bi bi-envelope" style="font-size: 1.5rem"></i
+              ></a>
+            </div>
+            
+
+            <div class="col-md-4 mb text-center text-md-center">
+              <p class="text-decoration" style="font-size: 14px">
+                Travessa da Alegria, N° 12, Centro Aguas Bellas, Pernambuco, Brazil<br><br>
+                Contato (87) 99905-8320<br><br>
+                E-mail: empresabrape@gmail.com
+              </p>
+
+            </div>
+            
+            <!-- Logo e Nome -->
+            <div class="col-md-4 text-center text-md-end my-5 mt-md-0 ">
+              <img
+                src="https://cdn.glitch.global/17763beb-7ddc-490a-ba2f-6f3c892f6ae5/16%20ICONE%20BRAPE%20PARA%20COLOCAR%20NO%20FINAL.png?v=1729365530137"
+                alt="Logo"
+                class="mb-2"
+                style="max-width: 80px"
+              />
+            </div>
+
+        
+          </div>
+
+          <!-- Texto de Copyright -->
+          <div class="text-center mt-3" style="font-size: 9px">
+            <small class="text-white-50"
+              >COPYRIGHT © TODOS OS DIREITOS RESERVADOS. SITE CRIADO POR
+              @QUINTASDOSITE</small
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // JavaScript para mostrar/esconder o menu ao rolar e desaparecer quando para de rolar
+      let lastScrollTop = 0;
+      const navbar = document.getElementById("navbarHamburger");
+      let isScrolling;
+
+      window.addEventListener("scroll", function () {
+        let scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+          // Ao rolar para baixo
+          navbar.classList.add("scrolling-navbar");
+        } else if (scrollTop === 0) {
+          // Quando chegar ao topo da página
+          navbar.classList.remove("scrolling-navbar");
+        }
+
+        lastScrollTop = scrollTop;
+
+        // Limpa o timeout quando rola
+        window.clearTimeout(isScrolling);
+
+        // Define um timeout para ocultar o navbar depois de parar de rolar
+        isScrolling = setTimeout(function () {
+          // Verifica se o menu não está aberto antes de ocultar
+          if (
+            !navbar.querySelector(".navbar-collapse").classList.contains("show")
+          ) {
+            navbar.classList.remove("scrolling-navbar");
+          }
+        }, 1500); // 2000ms (2 segundos) depois de parar de rolar
+      });
+
+      // Adiciona um evento para garantir que o navbar permaneça visível quando o menu está aberto
+      document
+        .querySelector(".navbar-toggler")
+        .addEventListener("click", function () {
+          if (
+            navbar.querySelector(".navbar-collapse").classList.contains("show")
+          ) {
+            navbar.classList.add("scrolling-navbar");
+          } else {
+            // Não faz nada adicional, o timeout de rolagem já está gerenciando isso
+          }
+        });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const elementsRight = document.querySelectorAll(".fade-in-right");
+        const elementsLeft = document.querySelectorAll(".fade-in-left");
+
+        function handleScroll() {
+          elementsRight.forEach((element) => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top <= window.innerHeight - 100) {
+              element.classList.add("show-lado");
+            }
+          });
+
+          elementsLeft.forEach((element) => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top <= window.innerHeight - 100) {
+              element.classList.add("show-lado");
+            }
+          });
+        }
+
+        window.addEventListener("scroll", handleScroll);
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const elements = document.querySelectorAll(".fade-in-top");
+
+        function handleScroll() {
+          elements.forEach((element) => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top <= window.innerHeight - 100) {
+              element.classList.add("show-top");
+            }
+          });
+        }
+
+        window.addEventListener("scroll", handleScroll);
+        handleScroll(); // Execute para verificar elementos já visíveis
+      });
+    </script>
+    <script>
+      document
+        .getElementById("expandButton")
+        .addEventListener("click", function () {
+          document.getElementById("projetos").classList.toggle("expand");
+        });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Seleciona todos os botões com a classe "toggle-button"
+        const toggleButtons = document.querySelectorAll(".toggle-button");
+        // Seleciona todos os elementos de texto expansível
+        const expandableTexts = document.querySelectorAll(".expandable-text");
+
+        // Itera sobre cada botão para adicionar um evento de clique
+        toggleButtons.forEach((button, index) => {
+          button.addEventListener("click", function () {
+            // Obtém o elemento de texto expansível correspondente ao botão clicado
+            const expandableText = expandableTexts[index];
+
+            // Alterna a classe "expanded" no texto expansível correspondente
+            expandableText.classList.toggle("expanded");
+
+            // Altera o texto do botão baseado no estado de expansão do texto
+            if (expandableText.classList.contains("expanded")) {
+              button.textContent = "Mostrar Menos";
+            } else {
+              button.textContent = "Mostrar Mais";
+            }
+          });
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Verifica se há uma âncora na URL
+        if (window.location.hash) {
+          // Remove temporariamente o hash
+          var currentHash = window.location.hash;
+          window.location.hash = "";
+
+          // Rola para o topo
+          window.scrollTo(0, 0);
+
+          // Restaura o hash depois de um curto período
+          setTimeout(function () {
+            window.location.hash = currentHash;
+          }, 10); // tempo curto para restaurar o hash
+        }
+      });
+    </script>
+  </body>
+</html>

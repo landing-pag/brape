@@ -1,0 +1,521 @@
+body {
+  padding: 0px;
+}
+
+.img-opacity {
+  opacity: 0.5; /* Reduz a opacidade para 70% */
+}
+.text-shadow {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 1); /* Adiciona sombra ao texto */
+}
+/* Tamanho de fonte padrão */
+.responsive-text {
+  font-size: 1rem; /* Tamanho base */
+}
+
+/* Aumenta a fonte em breakpoints md e superiores */
+@media (min-width: 768px) {
+  .responsive-text {
+    font-size: 2rem; /* Aumenta a fonte em md */
+  }
+}
+
+/* Aumenta ainda mais a fonte em breakpoints lg e superiores */
+@media (min-width: 992px) {
+  .responsive-text {
+    font-size: 3rem; /* Aumenta a fonte em lg */
+  }
+}
+/* Estilo do botão */
+.btn-gold {
+  background: linear-gradient(90deg, #e6b100, #f7d794, #e6b100, #f7c460);
+  color: #000000;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* Efeito de brilho ao passar o mouse */
+.btn-gold:hover {
+  background: linear-gradient(90deg, #f7c460, #e6b100, #f7c460, #e6b100);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Efeito ao clicar no botão */
+.btn-gold:active {
+  background: linear-gradient(90deg, #b08d57, #f7c460, #f7d794, #b08d57);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+/* botao-bronze */
+.btn-bronze {
+  background: linear-gradient(90deg, #ff6100, #f7d794, #ff6100, #b08d57);
+  color: #000000;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* Efeito de brilho ao passar o mouse */
+.btn-bronze:hover {
+  background: linear-gradient(90deg, #cd7f32, #ff6100, #f7d794, #ff6100);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Efeito ao clicar no botão */
+.btn-bronze:active {
+  background: linear-gradient(90deg, #cd7f32, #f7d794, #f7c460, #b08d57);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+/* botao prata */
+.btn-prata {
+  background: linear-gradient(90deg, #c0c0c0, #858585, #dcdede, #c0c0c0);
+  color: #000000;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* Efeito de brilho ao passar o mouse */
+.btn-prata:hover {
+  background: linear-gradient(90deg, #c0c0c0, #dcdede, #858585, #c0c0c0);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Efeito ao clicar no botão */
+.btn-prata:active {
+  background: linear-gradient(90deg, #c0c0c0, #858585, #dcdede, #c0c0c0);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+/* botao ouro */
+.btn-ouro {
+  background: linear-gradient(90deg, #ffd700, #f7d794, #f7c460, #ffd700);
+  color: #000000;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* Efeito de brilho ao passar o mouse */
+.btn-ouro:hover {
+  background: linear-gradient(90deg, #ffd700, #f7c460, #f7d794, #ffd700);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Efeito ao clicar no botão */
+.btn-ouro:active {
+  background: linear-gradient(90deg, #ffd700, #f7d794, #f7c460, #ffd700);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+/* p conquistas*/
+.pconquistas {
+  color: #e6b100;
+}
+
+.t-b {
+  color: #b08d57;
+}
+
+.t-p {
+  color: #c0c0c0;
+}
+.t-o {
+  color: #ffd700;
+}
+
+/* comentarios*/
+.testimonials {
+  background-color: #000000; /* Cor de fundo preta */
+}
+
+.testimonial-item {
+  background-color: #333333; /* Fundo dos depoimentos */
+}
+
+.testimonial-item p {
+  font-size: 14px; /* Tamanho da fonte dos depoimentos */
+}
+
+.testimonial-item img {
+  width: 50px; /* Tamanho da imagem */
+  height: 50px; /* Tamanho da imagem */
+}
+.how-it-works {
+  background-color: #000000; /* Fundo preto */
+}
+
+.how-it-works .text-muted {
+  color: #b08d57 !important; /* Texto dourado */
+}
+
+.how-it-works .icon i {
+  color: #b8a57d; /* Ícones dourados */
+}
+
+.how-it-works .btn-outline-light {
+  border: none; /* Remove a borda do botão */
+}
+
+.how-it-works .btn-outline-light:hover {
+  background-color: #ffffff; /* Muda a cor ao passar o mouse */
+  color: #000000; /* Texto preto ao passar o mouse */
+}
+.what-you-get {
+  background-color: #000000; /* Fundo preto */
+}
+
+.what-you-get .card {
+  border: none; /* Remove a borda do card */
+}
+
+.what-you-get .card-title {
+  color: #b08d57; /* Título dourado */
+}
+
+.what-you-get .card-img-bottom {
+  width: 100%; /* Imagem ocupa toda a largura do card */
+  height: auto; /* Mantém proporção da imagem */
+}
+/* Planos*/
+.consultoria-online {
+  background-color: #000000; /* Fundo preto */
+}
+
+.consultoria-online .card-header {
+  background-color: #333333; /* Fundo cinza escuro */
+}
+
+.consultoria-online .text-muted {
+  color: #b08d57 !important; /* Texto dourado claro */
+}
+
+.consultoria-online .badge-warning {
+  background-color: #b8a57d; /* Fundo do badge 'POPULAR' */
+  color: #000000;
+}
+
+/* bordas planos */
+
+.plan-bronze {
+  border: 4px solid transparent; /* Define uma borda transparente */
+  border-image: linear-gradient(45deg, #ff6100, #a66e2d); /* Gradiente Bronze */
+  border-image-slice: 1; /* Define a fatia de borda */
+}
+
+.plan-silver {
+  border: 4px solid transparent;
+  border-image: linear-gradient(45deg, #c0c0c0, #a8a8a8); /* Gradiente Prata */
+  border-image-slice: 1;
+}
+
+.plan-gold {
+  border: 4px solid transparent;
+  border-image: linear-gradient(45deg, #ffd700, #e5c100); /* Gradiente Ouro */
+  border-image-slice: 1;
+}
+footer {
+  position: relative;
+}
+
+footer a.text-white:hover {
+  color: #dddddd;
+}
+
+footer .btn-success {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS para o menu */
+#navbarHamburger {
+  display: none; /* Oculto inicialmente */
+  transition: top 0.5s; /* Suavidade na transição de aparecer/desaparecer */
+  position: fixed;
+  top: 10px; /* Ajustado para 10px a partir do topo */
+  right: 10px; /* Posição no canto direito */
+  z-index: 1030; /* Acima de outros elementos */
+  width: auto; /* Apenas a largura necessária */
+  border-radius: 5px;
+}
+
+.scrolling-navbar {
+  display: block !important; /* Mostra o menu quando rola */
+}
+
+.navbar-toggler {
+  border: none; /* Remove a borda do botão */
+}
+
+.navbar-collapse {
+  flex-grow: 0; /* Não expande o colapso do menu */
+}
+
+/* Estilo para manter o botão visível quando o menu está aberto */
+.navbar-collapse.show ~ #navbarHamburger {
+  display: block !important;
+}
+ollapse {
+  flex-grow: 0; /* Não expande o colapso do menu */
+}
+/* Estado inicial da animação */
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Classe para mostrar os elementos quando entram na tela */
+.show-lado {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Estado inicial da animação - deslocado para cima e invisível */
+.fade-in-top {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Classe para mostrar os elementos quando entram na tela */
+.show-top {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Efeito de pulsação suave */
+.pulsate {
+  animation: pulsate 3s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* acordeao */
+.accordion-button {
+  background-color: #111111; /* Cor de fundo preta */
+  color: white; /* Cor do texto branco */
+  font-weight: bold; /* Texto em negrito */
+  padding: 1rem; /* Espaçamento interno */
+}
+
+.accordion-button:not(.collapsed) {
+  color: white; /* Cor do texto quando aberto */
+  background-color: #111111; /* Cor de fundo preta quando aberto */
+}
+
+.accordion-button:after {
+  display: none; /* Esconde o ícone padrão do Bootstrap */
+}
+
+.accordion-button .icon {
+  margin-right: 1rem; /* Espaçamento entre ícone e texto */
+}
+
+.accordion-button.collapsed .icon::before {
+  content: "+"; /* Ícone de '+' quando colapsado */
+}
+
+.accordion-button:not(.collapsed) .icon::before {
+  content: "-"; /* Ícone de '-' quando expandido */
+}
+
+/* Estilo de imagens expandidas */
+.expand .col-3,
+.expand .col-sm-2 {
+  flex: 0 0 100%;
+  max-width: 85%;
+}
+
+/* CSS para o conteúdo expansível */
+.expandable-text {
+  max-height: 80px; /* Limita a altura inicial para cerca de 4 linhas de texto */
+  overflow: hidden; /* Oculta o restante do texto */
+  transition: max-height 0.3s ease; /* Adiciona uma transição suave para a expansão */
+  flex-shrink: 0; /* Evita encolhimento na direção da coluna */
+}
+
+.expandable-text.expanded {
+  max-height: 1000px; /* Aumenta significativamente a altura quando expandido */
+}
+
+.btn-ouro-t {
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+.services-container {
+  max-width: 1200px;
+}
+
+.services-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 20px 30px;
+}
+
+
+.services-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.service-item {
+  
+  cursor: pointer;
+  
+  padding: 30px 20px;
+  text-align: center;
+  transition: transform 0.5s;
+  width: 300px;
+}
+
+.service-item:hover {
+  background-color: #ffefc9;
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+.service-item:hover .service-item-img {
+  background-color: #ffffff;
+}
+
+.service-item-subtitle {
+  margin-top: 10px;
+}
+
+.service-item-description {
+  line-height: 1.5;
+  margin-top: 5px;
+}
+/*card sobre mim*/
+.team-card {
+  background-color: #333333; /* Cor de fundo cinza */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-card .card-title {
+  color: #e6b100; /* Cor dourada para os nomes */
+}
+
+.team-card .card-text {
+  color: white; /* Cor branca para o texto */
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+}
+
+.team-card .card-text2 {
+  color: white; /* Cor branca para o texto */
+  font-size: 1rem;
+}
+
+.team-card img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%; /* Deixa as imagens em formato circular */
+}
+
+.margin-top{
+  padding: 100px 0px 0px 0px;
+}
+
+/* tam fonts*/
+.custom-text {
+  font-size: 16px; /* Tamanho padrão para telas pequenas */
+}
+
+@media (min-width: 768px) {
+  .custom-text {
+    font-size: 18px; /* Tamanho para telas médias */
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-text {
+    font-size: 20px; /* Tamanho para telas grandes */
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-text {
+    font-size: 22px; /* Tamanho para telas extra grandes */
+  }
+}
+
+/* tam fonts*/
+.custom-text2 {
+  font-size: 14px; /* Tamanho padrão para telas pequenas */
+}
+
+@media (min-width: 768px) {
+  .custom-text2 {
+    font-size: 18px; /* Tamanho para telas médias */
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-text2 {
+    font-size: 20px; /* Tamanho para telas grandes */
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-text2 {
+    font-size: 22px; /* Tamanho para telas extra grandes */
+  }
+}
+
